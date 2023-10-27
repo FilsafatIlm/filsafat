@@ -2,6 +2,37 @@
 <html lang="en">
   <head>
   	<title>Sejarah Perkembangan ilmu pengetahuan</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 10px;
+    }
+
+    .card {
+      width: 18rem;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 767px) {
+      .card-container {
+        flex-direction: column; /* Mengubah susunan card menjadi satu kolom */
+      }
+
+      .card {
+        width: 100%; /* Mengisi lebar penuh layar */
+        margin: 10px 0; /* Memberi jarak 10px di atas dan bawah setiap card */
+      }
+    }
+  </style>
+  </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,15 +52,13 @@
 	        </button>
         </div>
 				<div class="p-4 pt-5">
-		  		<h1><a href="index.php" class="logo">Filsafat Ilmu</a></h1>
+		  		<h1><a href="index.html" class="logo">Filsafat Ilmu</a></h1>
 	        <ul class="list-unstyled components mb-5">
 	         
 	          <li>
               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                    <a href="pengertian.html">Pengertian Ilmu Pengetahuan</a>
-                </li>
+             
                 <li>
                     <a href="rennaisance.html">Zaman Rennaisance (Abad ke-14 hingga ke-17)</a>
                 </li>
@@ -52,11 +81,38 @@
 	      </div>
     	</nav>
 
-        <!-- Page Content  -->
+       
       <div id="content" class="p-4 p-md-5 pt-5">
-
+    <div class="card-container">
+      <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Zaman Rennaissance</h5>
+          <p class="card-text">Abad ke-14 hingga Abad ke-17.</p>
+          <a href="rennaisance.html" class="btn btn-primary">Kunjungi</a>
+        </div>
       </div>
-		</div>
+      
+      <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Zaman Modern</h5>
+          <p class="card-text">Abad ke-17 hingga Abad ke-19.</p>
+          <a href="modern.html" class="btn btn-primary">Kunjungi</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Zaman Kontemporer</h5>
+          <p class="card-text">Abad ke-20 dan seterusnya.</p>
+          <a href="kontemporer.html" class="btn btn-primary">Kunjungi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
