@@ -27,9 +27,7 @@
 	          <li>
               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                    <a href="pengertian.php">Pengertian Ilmu Pengetahuan</a>
-                </li>
+                
                 <li>
                     <a href="rennaisance.php">Zaman Rennaisance (Abad ke-14 hingga ke-17)</a>
                 </li>
